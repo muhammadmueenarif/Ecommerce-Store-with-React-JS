@@ -59,3 +59,5 @@ Next step is security. to protect against online attacks like xss, sql injection
 combined with different security mechanism like content security policies, rate restriction, and input validation. 
 
 
+Lec 04. React APP Installation
+First we need to install react. npx create-react-app app-name. 
