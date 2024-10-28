@@ -106,4 +106,27 @@ in const, we can't change variable. const a=50; if we give a=40 again or const a
 
 
 Lec 07. Functions
+function Output () {
+    const a =20;
+    console.log(a);
+}
+Output();
+this is the first and basic syntax of using function. function is used to save most data or print same items
+multiple time. 
 
+another method of using function is arrow function. 
+const Output = ()=> {
+    const a =20;
+    console.log(a);
+}
+Output();
+
+Another method to use function is to use parameters inside the function like 
+function Output(a=20, b=30) {
+    console.log(a+b);
+}
+Output();
+it will show 50 as output. 
+
+
+Lec 8. 
