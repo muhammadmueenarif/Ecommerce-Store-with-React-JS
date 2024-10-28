@@ -43,3 +43,19 @@ recommendations based on what customer is searching or buying.
 To optimize website ranking, we can use server side rendering. This enables the website to load material 
 and layout on the server before rendering it on the client, which can improve initial load time and make 
 website more accessible to people with sluggish Internet connections.
+
+
+Lec 03. Getting Started. 
+Before react, we need to install something. node js, npm, and ide that is vs code. first step is to build a 
+design with html css and embedd react component using jsx. react state and props are used to manage data. 
+event is used to handle using interactions. once it is completed, then we can add product, shopping cart, 
+process payment and update inventory. we can use react set state function to update state of component in 
+response to user event. after adding all the logic, 
+the site must be deployed into production environment. 
+This includes use of tool Webpack to bundle your code into single file that can be served to consumer. 
+Other tools like hosting security and performance optimization are available. 
+
+Next step is security. to protect against online attacks like xss, sql injection attacks, react can be
+combined with different security mechanism like content security policies, rate restriction, and input validation. 
+
+
