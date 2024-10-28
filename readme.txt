@@ -197,3 +197,11 @@ var b = a.filter(x => x> 20).map(x => x*2);
 console.log(b);
 this will return values > 20 and multiply them by 2.
 
+
+Lec 12. Reduce Method
+it will output single digit. we have two parameters accumulator and current value in reduce method.  
+const a = [10,20,30,40,50];
+var b = a.reduce((acc, curr) => {
+    acc + curr; //acc is initial value and curr is current value. it will return some of all values. 
+    //10+20=30, 30+30=60, 60+40=100, 100+5-= 150 as final.
+    }); 
