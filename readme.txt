@@ -61,3 +61,21 @@ combined with different security mechanism like content security policies, rate 
 
 Lec 04. React APP Installation
 First we need to install react. npx create-react-app app-name. 
+
+Lec 05. React Folder Structure. 
+node_modules: important and significant for project to function in browser. everything related to the framework
+and library and dependencies will be installed here. 
+public: it has some images and index.html file. 
+src: source folder second most important. 
+after that package.json file that show project name, app version, and dependencies. dependencies are shortly 
+written in package.json file but properly managed with detail in package-lock.json
+Next is readme.md file. when add project on github, we want to add project related information then we add
+details in it. 
+
+delete app.css, app.test.js, setuptest.js, report webvitals.js and other unimportant default 
+files except app.js and index.js. 
+
+now we will be facing errors. just clear all the data in app.js file and remove webvitals in index.js. and if 
+we write rafce and it will create arrow function and export it. 
+
+
