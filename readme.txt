@@ -129,4 +129,12 @@ Output();
 it will show 50 as output. 
 
 
-Lec 8. 
+Lec 8. Arrays 
+const numbers = [10,20,30];
+console.log(numbers);
+
+we put only one time in the console but result show 2 times. to solve this issue, we can go to index.js and 
+remove strict mode. and then our issue will be solved.
+we use array to store large quantity of data. React is identical to html and js. no connection b/w css and react. 
+if we want to use string data in array, we can write const array =["a", "b", "c"];
+we can use {} to use js inside react. 
