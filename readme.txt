@@ -205,3 +205,12 @@ var b = a.reduce((acc, curr) => {
     acc + curr; //acc is initial value and curr is current value. it will return some of all values. 
     //10+20=30, 30+30=60, 60+40=100, 100+5-= 150 as final.
     }); 
+
+
+Lec 13. JS as JSX. 
+if we want to create a component in another file then we will export it at the end of file and import it in the 
+file where we want to use it. js has many framework and libraries so when code execute, the compiler takes 
+sometimes to understand which framework is it but if we change file name to component.jsx then compiler 
+directly understand it that it is react and takes less time. we can use both js, or jsx file extension but it 
+is preferable to use jsx. 
+change app.js file extension to jsx as it is preferable and will directly consider it as react. 
