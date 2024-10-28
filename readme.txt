@@ -184,3 +184,16 @@ Multiply();
 to do this by arrow method, we can do. 
 const b= a.map((x)=> x*2);
 
+
+Lec 11. Filter method. 
+const a = [10,20,30,40,50];
+var b = a.filter(x => x> 20);
+console.log(b);
+this will return values > 20. if we write anything other than x, than it will also return same result. 
+
+using filter and map method together. 
+const a = [10,20,30,40,50];
+var b = a.filter(x => x> 20).map(x => x*2);
+console.log(b);
+this will return values > 20 and multiply them by 2.
+

@@ -1,11 +1,9 @@
 import React from 'react';
 
 const App = () => {
-  const a = [1, 2, 3, 4, 5];
+  const a = [10, 20, 30, 40, 50];
 
-  const b = a.map(function Multiply(x) {
-    return x * 2;
-  });
+  const b = a.filter(x => x > 20);
 
   console.log(b);
 
