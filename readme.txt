@@ -172,7 +172,15 @@ we can use slice method to remove specific index value from array.
 const a = numbers.slice(1); this will remove array value at index 1. 
 
 
+Lec 10. Advanced Topics in React JS. 
+Mapping. 
 
-
-
+var a= [1,2,3,4,5];
+var b= a.map(function Multiply(x){     
+    return x*2;
+    console.log(b);
+});
+Multiply();
+to do this by arrow method, we can do. 
+const b= a.map((x)=> x*2);
 
