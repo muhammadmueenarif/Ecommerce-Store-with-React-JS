@@ -62,6 +62,7 @@ combined with different security mechanism like content security policies, rate 
 Lec 04. React APP Installation
 First we need to install react. npx create-react-app app-name. 
 
+
 Lec 05. React Folder Structure. 
 node_modules: important and significant for project to function in browser. everything related to the framework
 and library and dependencies will be installed here. 
@@ -78,4 +79,31 @@ files except app.js and index.js.
 now we will be facing errors. just clear all the data in app.js file and remove webvitals in index.js. and if 
 we write rafce and it will create arrow function and export it. 
 
+
+Lec 06. Important React and JS Concepts. 
+Variables. any function that we use in app.js file must return something. var let const, 3 Variables. 
+most use let and const. var not used because it offers multiple declaration and multiple value changes. 
+For example, if declare variable A and give value 22, we can also give it value 40. it's second value
+So 40 that will log in console.
+this can be confusing because variable is same, but value given to it has changed, If we assign another value
+50, then 50 will log in console.
+
+but we won't get same result if we apply same strategy or code to a let variable. This is because let variable 
+can only have one declared value.
+we can give same value to different let variables but cannot give different values to same let variable.
+
+For example, if we define variable, let A and give it value 22 then give it value 44
+again and save file. Then 44 will appear in console.
+if we declare variable, let a again and give it the value of 50, then save file. So 50 will be printed because 
+we cannot define values more than once in a let variable though an error will occur and nothing will be reported
+in the console.
+
+let a= 22;
+a=44; this is true possible. but 
+again let a=50; is false and give error. 
+
+in const, we can't change variable. const a=50; if we give a=40 again or const a=50, it will show error. 
+
+
+Lec 07. Functions
 
