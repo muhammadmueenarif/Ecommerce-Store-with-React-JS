@@ -138,3 +138,41 @@ remove strict mode. and then our issue will be solved.
 we use array to store large quantity of data. React is identical to html and js. no connection b/w css and react. 
 if we want to use string data in array, we can write const array =["a", "b", "c"];
 we can use {} to use js inside react. 
+
+
+Lec 9. Array Methods 
+const numbers = [10,20,30];
+console.log(numbers.length); //to get length of array. 
+console.log(numbers[2]); //to get value at index 2. 
+const a= numbers.join(" ")
+console.log(a); //this will print all value of array with space in them. if we want to print them with , in them,
+we can use ',' in the join function. 
+
+const a= numbers.sort();//this will sort array in ascending order of alphabetical. 
+console.log(a);
+
+const a = numbers.push(50); //this will add new element at the end of array. 
+console.log(a); 
+
+we can use shift method to remove element at the first index. 
+const a = numbers.shift();
+console.log(a);
+
+unshift method is used to add element at the first index.
+const a = numbers.unshift(50);
+console.log(a);
+
+const b = numbers.pop(); //this will remove element at the last index.
+
+const cars = ["a", "b", "c"];
+const c= numbers.concat(cars); //this will join two arrays.
+console.log(c);
+
+we can use slice method to remove specific index value from array. 
+const a = numbers.slice(1); this will remove array value at index 1. 
+
+
+
+
+
+
