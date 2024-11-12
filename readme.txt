@@ -214,3 +214,11 @@ sometimes to understand which framework is it but if we change file name to comp
 directly understand it that it is react and takes less time. we can use both js, or jsx file extension but it 
 is preferable to use jsx. 
 change app.js file extension to jsx as it is preferable and will directly consider it as react. 
+
+
+Lec 14. Integrating CSS in React. 
+if two or more class name or same then there maybe error by mistake. so we can change name header.css to 
+header.module.css. and import file as same name of module. then there will not occur any error. 
+we can import that as import styles from './header.module.css';
+
+return (<div className={styles.header}>header</div>)
