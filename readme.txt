@@ -233,3 +233,8 @@ is changed upon calling of function.
 Lec 16. Props. 
 props is used to convey data in form of number string function object. we can use props with combination with 
 other props also or alone. 
+
+
+Lec 17. Use Effect. 
+it can be called many times in react. can be used when value of use state is changed. first import use Effect 
+hook at the top of file. 
