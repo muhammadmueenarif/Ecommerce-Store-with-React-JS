@@ -228,3 +228,8 @@ Lec 15. Exploring React Hooks.
 What is useState. how to use useState in react. we always need to import use state at the top of file where we 
 want to use it. use state always return value in array. it takes a function and variable and value of variable 
 is changed upon calling of function. 
+
+
+Lec 16. Props. 
+props is used to convey data in form of number string function object. we can use props with combination with 
+other props also or alone. 
