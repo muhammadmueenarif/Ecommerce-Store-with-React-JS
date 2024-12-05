@@ -222,3 +222,9 @@ header.module.css. and import file as same name of module. then there will not o
 we can import that as import styles from './header.module.css';
 
 return (<div className={styles.header}>header</div>)
+
+
+Lec 15. Exploring React Hooks. 
+What is useState. how to use useState in react. we always need to import use state at the top of file where we 
+want to use it. use state always return value in array. it takes a function and variable and value of variable 
+is changed upon calling of function. 
